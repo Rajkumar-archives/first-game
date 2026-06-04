@@ -133,7 +133,6 @@ export default function App() {
           textAlign: "center",
         }}
       >
-        <p>{circles.length} circles</p>
         <canvas
           ref={canvasRef}
           width={canvasWidth}
@@ -207,9 +206,10 @@ export default function App() {
         <p>
           you guessed <b style={{ color: "red" }}>{userGuess}</b> circles and
           there were
-          <b style={{ color: "red" }}>{actual}</b>circles away. you could have
-          been at most <b style={{ color: "red" }}>{actual}</b> circles away so
-          you were <b style={{ color: "red" }}>{accuracy}</b>%accurate.
+          <b style={{ color: "red" }}>{actual} </b>circles making you
+          <b style={{ color: "red" }}>{diff}</b> away. you could have been at
+          most <b style={{ color: "red" }}>{actual}</b> circles away so you were{" "}
+          <b style={{ color: "red" }}>{accuracy}</b>%accurate.
         </p>
         <button
           onClick={() => {
