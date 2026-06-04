@@ -10,6 +10,8 @@ export default function App() {
   const canvasHeight = Math.min(window.innerHeight * 0.7, 800);
   const [guess, setguess] = useState("");
   const [sub, setsub] = useState(false);
+  {
+  }
   useEffect(() => {
     if (screen !== "game") return;
     const generated = [];
