@@ -7,7 +7,7 @@ export default function App() {
   const [circles, setcircles] = useState([]);
   const canvasRef = useRef(null);
   const canvasWidth = Math.min(window.innerWidth * 0.9, 650);
-  const canvasHeight = Math.min(window.innerHeight * 0.7, 700);
+  const canvasHeight = Math.min(window.innerHeight * 0.7, 800);
   const [guess, setguess] = useState("");
   const [sub, setsub] = useState(false);
   useEffect(() => {
