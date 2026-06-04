@@ -207,8 +207,7 @@ export default function App() {
         <h2>results</h2>
         <p>
           you guessed <b style={{ color: "red" }}>{userGuess}</b> circles and
-          there were
-          <b style={{ color: "red" }}>{actual} </b>circles making you{" "}
+          there were <b style={{ color: "red" }}>{actual} </b>circles making you{" "}
           <b style={{ color: "red" }}>{diff}</b> away. you could have been at
           most <b style={{ color: "red" }}>{actual}</b> circles away so you were{" "}
           <b style={{ color: "red" }}>{accuracy}</b>% accurate.
